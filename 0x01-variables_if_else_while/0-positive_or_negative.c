@@ -19,6 +19,7 @@ int main(void)
 	}
 	if (n < 0)
 	{
-		printf("the number is negative")
+		printf("the number is negative");
 	}
 	return (0);
+}
