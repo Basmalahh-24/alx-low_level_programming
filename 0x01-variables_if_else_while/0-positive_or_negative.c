@@ -11,15 +11,15 @@ int main(void)
 	scanf("%d", &n);
 	if (n > 0)
 	{
-		printf("is postive");
+		printf("%d is postive" ,n);
 	}
 	if (n == 0)
 	{
-		printf("is zero");
+		printf("%d is zero" ,n);
 	}
 	if (n < 0)
 	{
-		printf("is negative");
+		printf("%d is negative" ,n);
 	}
 	return (0);
 }
