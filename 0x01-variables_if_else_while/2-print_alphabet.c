@@ -1,19 +1,19 @@
-#include<stdio.h>
+#include <stdio.h>
+
 /**
- * main -alphabit
+ * main - Prints the alphabet.
  *
- * Return: 0
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-	int n;
-	int m = 122;
+	char alp[26] = "abcdefghijklmnopqrstuvwxyz";
+	int i;
 
-	for (n = 97 ; n < 122 ; n++)
+	for (i = 0; i < 26; i++)
 	{
-		putchar(n);
-
+		putchar(alp[i]);
 	}
-	putchar (m);
+	putchar('\n');
 	return (0);
 }
