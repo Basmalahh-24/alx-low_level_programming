@@ -1,21 +1,17 @@
-#include<stdio.h>
 /**
- * main -show upper and lower alphabet
+ * main - Prints the alphabet.
  *
- * Return: 0
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-	int n;
-	int m;
+char alp[52] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+	int i;
 
-	for (n = 97 ; n <= 122 ; n++)
+	for (i = 0; i < 52; i++)
 	{
-		putchar(n);
+		putchar(alp[i]);
 	}
-	for (m = 65 ; m <= 90 ; m++)
-	{
-		putchar(m);
-	}
+	putchar('\n');
 	return (0);
 }
