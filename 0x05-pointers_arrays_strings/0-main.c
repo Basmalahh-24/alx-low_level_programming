@@ -8,6 +8,7 @@
  */
 int main(void)
 {
+	int *ptr = &n;
     int n;
 
     n = 402;
