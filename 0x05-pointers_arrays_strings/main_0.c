@@ -10,6 +10,8 @@ void reset_to_98(int *);
 int main(void)
 {
 	int n;
+        int *ptr = &n;
+	*ptr=98;
 
 	n = 402;
 	printf("%d\n", n);
